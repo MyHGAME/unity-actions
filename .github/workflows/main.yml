@@ -198,7 +198,8 @@ jobs:
         unityVersion:
           - 2019.2.11f1
         targetPlatform:
-          - Android
+          - StandaloneWindows64 # Build a Windows 64-bit standalone.
+
     steps:
       - uses: actions/checkout@v2
         with:
